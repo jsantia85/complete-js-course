@@ -30,4 +30,5 @@ const restaurant = {
   },
 };
 
-console.log(restaurant.order(2, 0))
+const [starter, main] = restaurant.order(2, 0)
+console.log(starter, main)
