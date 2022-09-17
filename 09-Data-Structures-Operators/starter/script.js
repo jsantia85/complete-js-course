@@ -27,3 +27,8 @@ const restaurant = {
     },
   },
 };
+
+const arr = [1, 2, 3]
+const [x, y, z] = arr
+console.log(x, y, z)
+console.log(arr)
