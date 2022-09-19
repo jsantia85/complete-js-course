@@ -141,6 +141,7 @@ const arr = [1, 2, ...[3, 4]];
 const [a, b, ...others] = [1, 2, 3, 4, 5];
 console.log(a, b, others);
 
+// Does not include any skipped elements
 const [pizza, , risotto, ...otherFood] = [
   ...restaurant.mainMenu,
   ...restaurant.starterMenu,
