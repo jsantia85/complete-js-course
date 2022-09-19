@@ -36,3 +36,7 @@ console.log(starter, main)
 const nested = [2, 4, [5, 6]]
 const [i, , [j, k]] = nested
 console.log(i, j, k)
+
+const {name, openingHours, categories} = restaurant
+
+console.log(name, openingHours, categories)
